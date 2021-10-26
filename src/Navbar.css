@@ -1,0 +1,82 @@
+.navbar {
+	background-color: #131921;
+	display: flex;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+
+.navbar__logo {
+	width: 100px;
+	object-fit: contain;
+	margin: 0 20px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+
+.navbar__search {
+	display: flex;
+	flex: 1;
+	margin: 0 10px;
+}
+
+.navbar__searchInput {
+	height: 12px;
+	padding: 10px;
+	border: none;
+	width: 100%;
+}
+
+.navbar__searchIcon {
+	padding: 5px;
+	height: 22px !important;
+	background-color: #f3a847;
+}
+
+.navbar__nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	margin: 0 10px;
+}
+
+.navbar__pinIcon {
+	color: white;
+}
+
+.navbar__link {
+	color: white;
+	text-decoration: none;
+	display: flex;
+}
+
+.navbar__option {
+	display: flex;
+	flex-direction: column;
+	margin: 0 10px;
+}
+
+.navbar__optionDelivery {
+	margin-left: 0px;
+	margin-right: 10px;
+}
+
+.navbar__optionBasket {
+	display: flex;
+	align-items: center;
+	margin: 0;
+}
+
+.navbar__optionLineOne {
+	font-size: 10px;
+}
+
+.navbar__optionLineTwo {
+	font-size: 13px;
+	font-weight: 800;
+}
+
+.navbar__basketCount {
+	margin: 0 10px;
+}
